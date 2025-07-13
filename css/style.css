@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: var(--color-text);
+}
+
+:root {
+    --color-text: rgb(255,255,255);
+    --color-h1: rgb(108, 151, 194);
+    --color-hover: rgb(108, 151, 194);
+    --color-p: rgb(114 90 57);
+    --color-nav: rgb(255,255,255);
+    --color-form: rgb(212, 204, 180);
+    --color-input: rgb(107, 138, 107);
+    --color-button-hover: rgb(107, 138, 107);
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content-home {
+    background-image: url(../images/bg-home.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 105vh;
+}
+
+/* header start */
+header {
+    background-color: rgb(50, 50, 50);
+    padding: 15px 0;
+}
+
+nav {
+    width: 75%;
+    margin: auto;
+}
+
+
+nav li a {
+    color: var(--color-text);
+    padding: 0 20px 0 0;
+}
+
+nav a:hover {
+    color: var(--color-hover);
+}
+
+/* header end */
+/* home start */
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.text-home {
+    width: 50%;
+    margin: 50px 0;
+}
+
+.text-home {
+    h1 {
+        color: var(--color-h1);
+        margin: 7px 0;
+    }
+
+    p {
+        color: var(--color-p);
+    }
+}
+
+.form-home {
+    width: 30%;
+    background-color: #6a4e33;
+    padding: 25px;
+    border-radius: 5px;
+
+}
+
+.form-home h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--color-form);
+}
+
+.form-details {
+    margin-bottom: 10px;
+}
+
+label {
+    color: var(--color-form);
+}
+
+input,
+select,
+textarea {
+    border-radius: 5px;
+    padding: 4px;
+    border: 0;
+    width: 100%;
+    color: var(--color-input);
+}
+
+textarea {
+    padding: 15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: transparent;
+    outline: 0;
+}
+
+.submit {
+    padding: 7px 20px;
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--color-form);
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: var(--color-button-hover);
+    color: var(--color-text);
+}
+
+/* home end */
