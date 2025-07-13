@@ -6,7 +6,7 @@ a modern and responsive website for unique furniture
 
 - [@mariemhussein3](https://www.github.com/mariemhussein3)
 
-##🎨 Color Reference
+## 🎨 Color Reference
 
 | Color             | code                                                                |
 | ----------------- | ------------------------------------------------------------------ |
