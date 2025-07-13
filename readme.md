@@ -54,9 +54,12 @@ to use my web
 
 ## ❓Features
 
--bg image Fullscreen
--navbar
--form registration include:
+- bg image Fullscreen
+
+- navbar
+
+- form registration include:
+
 - Labels and input fields:
     - Name  
     - Email  
